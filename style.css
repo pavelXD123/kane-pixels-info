@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.profile{
+    border-radius: 10%;
+    width: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#ccff00 0%, #001aff 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+#name{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#bio{
+    font-family: 'Libre Baskerville', serif;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: crimson;
+    width: 70px;
+    margin: 8px auto;
+}
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu{
+    position: fixed;
+    background: #ed1010;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#work a{
+    text-decoration: underline !important;
+    color: crimson !important ;
+    font-size: 30px;
+    
+}
+
+a:link{
+    color: rgb(0, 213, 255);
+}
+
+a:visited{
+    color: rgb(255, 162, 0);
+}
+
+#contact{
+    background:rgb(255, 0, 238);
+}
+
+#contact iframe{
+    width: 100%;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
